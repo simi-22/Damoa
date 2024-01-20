@@ -208,6 +208,24 @@ nav .navbar-brand img {
     color: rgb(255, 214, 161);
 }
 
+.page-popup{
+    position: absolute;
+    top:calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.page-popup .page-popup-box img{
+    width: 400px;
+}
+.page-popup .page-popup-box {
+    position: relative;
+    z-index: 1000;
+}
+.page-popup .page-popup-box span {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
 .review-hidden {
     display: none;
 }
