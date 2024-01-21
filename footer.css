@@ -1,76 +1,88 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  footer {
-    background-color: #ff6a00;
-    color: white;
-    padding: 20px 0;
-  }
-  
+
+footer {
+  background-color: #ff6a00;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-group {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.footer-section {
+  margin: 0em 1em;
+}
+
+.menu {
+  margin-right: 10em;
+}
+
+.contacts {
+  margin-right: 10em;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-subtitle {
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 0.5em;
+}
+
+
+.sns-icon {
+  margin: 0em 0.5em;
+}
+
+.footer-menu-item {
+  margin-bottom: 2em;
+}
+
+.footer-contacts-icon {
+  margin-bottom: 0.5em;
+}
+
+footer p {
+  text-align: center;
+  font-size: smaller;
+  color: #FEBF92
+}
+
+.footer-line {
+  border-bottom: 1px solid #FEBF92;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
   .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .footer-section {
-    margin: 10px;
+    margin: 5px 20px;
   }
-  
-  .footer-section a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-  }
-  
-  .footer-section p {
-    margin: 5px 0;
-  }
-  
-  .footer-subtitle {
-    font-weight: 900;
-    font-size: larger;
-    margin-bottom: 0.5em;
-  }
-  
-  .sns-icon {
-    margin: 0em 0.5em;
-  }
-  
+
   .footer-menu-item {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
   }
-  
-  .footer-contacts-icon {
-    margin-bottom: 0.5em;
-  }
-  
-  footer p {
-    text-align: center;
-    font-size: smaller;
-    color:  #FEBF92
-  }
-  
-  .footer-line {
-    border-bottom: 1px solid #FEBF92;
-  }
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-section {
-      margin: 20px 0;
-    }
-  }
+}

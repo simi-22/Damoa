@@ -62,3 +62,23 @@ const reviewCloserFn = () => {
 for (let i = 0; i < reviewCloseBtn.length; i++) {
     reviewCloseBtn[i].addEventListener("click", reviewCloserFn);
   }
+
+
+//   팝업창
+
+const popCloseBtn = document.querySelector('.page-popup1 .page-popup-box span');
+const popBox1 = document.querySelector('.page-popup1');
+const popBg1 = document.querySelector('.popup-bg1');
+
+popCloseBtn.addEventListener('click', ()=> {
+    popBox1.classList.add('review-hidden');
+    popBg1.classList.add('review-hidden');
+})
+
+const popCloseBtn2 = document.querySelector('.page-popup2 .page-popup-box span');
+const popBox2 = document.querySelector('.page-popup2')
+const popBg2 = document.querySelector('.popup-bg2');
+popCloseBtn2.addEventListener('click', ()=> {
+    popBox2.classList.add('review-hidden');
+    popBg2.classList.add('review-hidden');
+})

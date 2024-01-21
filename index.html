@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="index.css" rel="stylesheet">
+    <link href="main1.css" rel="stylesheet">
     <link href="main2.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
-    <link href="main1.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/1006022986.js" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 260px;">
+                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll scroll-menu-me" style="--bs-scroll-height: 260px;">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       카테고리
@@ -36,8 +36,17 @@
                       <li><a class="dropdown-item" href="#">디자인</a></li>
                       <li><a class="dropdown-item" href="#">영상/3D</a></li>
                       <li><a class="dropdown-item" href="#">일러스트</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">후기</a></li>
+                      <li><a class="dropdown-item" href="#">이벤트</a></li>
                     </ul>
+                    
                  
+                </ul>
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">취업연계 프로그램</a>
+                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="찾고 싶은 강의 주제를 입력해주세요." aria-label="Search" name="enter" onkeydown="javascript:if(event.keyCode == 13)searchList();">
@@ -54,45 +63,32 @@
             </div>
           </nav>
 
-    </section>
+        </section>
 
 
 
-    <!-- 메인1 -->
-    <!-- 메인1 -->
-    <div>
+
+      <!-- 메인1 -->
+      <div>
         <div>
           <div
             id="carouselExampleFade"
             class="carousel slide carousel-fade"
-            data-bs-ride="carousel"
-          >
+            data-bs-ride="carousel" >
             <div class="carousel-inner">
               <div class="carousel-item c-item active">
-                <div class="d-block w-100 c-img">
-                  <img
-                    src="https://img-c.udemycdn.com/course/750x422/4077322_a979_4.jpg"
-                    class="c-inside-img"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="carousel-item c-item dfas">
-                <div class="d-block w-100 c-img">
-                  <!-- <img
-                    src="https://omegadigitalsolutions.com/pteelroa/2022/07/header-youtube.png"
-                    class="c-inside-img"
-                    alt="..."
-                  /> -->
+                <div class="d-block c-img">
+                  <div class="c-inside-img1"></div>
                 </div>
               </div>
               <div class="carousel-item c-item">
-                <div class="d-block w-100 c-img">
-                  <img
-                    src="https://i.ytimg.com/vi/4v52lmRgvK4/maxresdefault.jpg"
-                    class="c-inside-img"
-                    alt="..."
-                  />
+                <div class="d-block c-img">
+                  <div class="c-inside-img2"></div>
+                </div>
+              </div>
+              <div class="carousel-item c-item">
+                <div class="d-block c-img">
+                  <div class="c-inside-img3"></div>
                 </div>
               </div>
             </div>
@@ -130,12 +126,16 @@
         </div>
       </div>
       <!-- 메인1 -->
+    <div id="video-title">
+      <h2 class="h-dot">광범위한 강의 모음</h2>
+    <p>210,000개 이상의 온라인 동영상 강의 중에서 선택하세요. 매월 새롭게 강의가 추가됩니다.</p>
+    </div>
       <div>
         <div>
-          <div class = "hey-mid">
-            <h2>
+          <div class = "hey-mid11">
+            <h4>
               Udemy 강의 모음
-            </h2>
+            </h4>
             <p>
               전세계에서 가장 유망한 Udemy에서 추천 하는 개발자공부를 위한 추천 강의
             </p>
@@ -145,7 +145,7 @@
           <div class="carousel-inner main1-ccc">
             <div class="carousel-item active">
               <div class="cards-wrapper">
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://img-c.udemycdn.com/course/750x422/625204_436a_3.jpg" alt="..." />
                   </div>
@@ -157,7 +157,7 @@
                     <a href="#" class="btn btn-primary ">강의듣기</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://img-c.udemycdn.com/course/750x422/1565838_e54e_18.jpg" alt="..." />
                   </div>
@@ -169,7 +169,7 @@
                     <a href="#" class="btn btn-primary">강의듣기</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://img-b.udemycdn.com/course/750x422/4471614_361e_5.jpg" alt="..." />
                   </div>
@@ -185,7 +185,7 @@
             </div>
             <div class="carousel-item">
               <div class="cards-wrapper">
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://img-b.udemycdn.com/course/480x270/1879018_95b6_3.jpg" alt="..." />
                   </div>
@@ -197,7 +197,7 @@
                     <a href="#" class="btn btn-primary">강의듣기</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLE7XdsEhdmMLUNFmPGJgotR15Ki6N6GisoAUUVrO73n6C_SUj6dVz8yg7umR9Xqt30I&usqp=CAU" alt="..." />
                   </div>
@@ -209,7 +209,7 @@
                     <a href="#" class="btn btn-primary">강의듣기</a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-window">
                   <div class = "image-wrapper">
                   <img src="https://img-c.udemycdn.com/course/480x270/3173974_b870_4.jpg" alt="..." />
                   </div>
@@ -357,14 +357,14 @@
   
   
       </div>
-      
+      <div class = "main1-between"></div>
       <!-- 메인2 -->
       <div>
         <div>
           <div class = "hey-mid">
-            <h2>
+            <h4>
               유튜버 "코딩 알려주는 알려주는 누나" 의 강의
-            </h2>
+            </h4>
             <p>
               처음 코딩공부를 시작하시는 분들과 어떻게 시작해야할지 막막하시는 분들에게 정말 좋은 강의입니다.
             </p>
@@ -526,6 +526,7 @@
           </button>
         </div>
       </div>
+      <div class = "main1-between"></div>
       
       
 
@@ -605,10 +606,13 @@
 <!-- 푸터 -->
 <!-- 푸터 -->
 <footer>
-    <div class="footer-container">
+  <div class="footer-container">
+    <div  class="footer-group">
       <div class="footer-section logo">
         <img src="images-footer/logo_damoa.png" width="100">
       </div>
+    </div>
+    <div  class="footer-group">
       <div class="footer-section menu">
         <div class="footer-subtitle">Introduce</div>
         <a href="#">메인</a>
@@ -621,45 +625,63 @@
         <a href="#">웹 사이트</a>
         <a href="#">모바일 앱</a>
       </div>
-      <div class="footer-section contacts">
-        <div class="footer-subtitle">Contacts</div>
-        <div>
-            <i class="fa-solid fa-location-dot footer-contacts-icon" style="color: #ffffff;"></i>
-            <div class="footer-menu-item">example address</div>
-        </div>
-        <div>
-            <i class="fa-solid fa-phone footer-contacts-icon" style="color: #ffffff;"></i>
-          <div class="footer-menu-item">02-1234-5678</div>
-        </div>
-        <div>
-            <i class="fa-regular fa-envelope footer-contacts-icon" style="color: #ffffff;"></i>
-          <div class="footer-menu-item">damoa@gmail.com
-          </div>
-        </div>
+    </div>
+
+
+    
+    <div class="footer-section contacts">
+      <div class="footer-subtitle">Contacts</div>
+      <div>
+          <i class="fa-solid fa-location-dot footer-contacts-icon" style="color: #ffffff;"></i>
+          <div class="footer-menu-item">example address</div>
       </div>
-      <div class="footer-section social-media">
-        <div class="footer-subtitle">SNS</div>
-        <i class="fab fa-instagram sns-icon"></i>
-        <i class="fab fa-twitter sns-icon"></i>
-        <i class="fab fa-facebook-f sns-icon"></i> 
+      <div>
+          <i class="fa-solid fa-phone footer-contacts-icon" style="color: #ffffff;"></i>
+        <div class="footer-menu-item">02-1234-5678</div>
+      </div>
+      <div>
+          <i class="fa-regular fa-envelope footer-contacts-icon" style="color: #ffffff;"></i>
+        <div class="footer-menu-item">damoa@gmail.com
+        </div>
       </div>
     </div>
-    <div class="footer-line"></div>
-    <p>&copy; 2024 Your Company. All rights reserved.</p>
-    <p>Contact: info@yourcompany.com</p>
-  </footer>
+    <div class="footer-section social-media">
+      <div class="footer-subtitle">SNS</div>
+      <i class="fab fa-instagram sns-icon"></i>
+      <i class="fab fa-twitter sns-icon"></i>
+      <i class="fab fa-facebook-f sns-icon"></i> 
+    </div>
+  </div>
+  <div class="footer-line"></div>
+  <p>&copy; 2024 Damoa. All rights reserved.</p>
+  <p>Contact: Damoa@gmail.com</p>
+</footer>
 
 
 
 
-
-<!-- <a href="#"></a>
-<div class="page-popup">
+  <!-- 팝업 -->
+  <!-- 팝업 -->
+<div class="popup-bg1"></div>
+<div class="page-popup page-popup1">
+  <div class="popup-bg"></div>
     <div class="page-popup-box">
-        <img src="./img-m2/enterpop.png" alt="코딩알려주는 누나 node.js 강의">
-        <span>X</span>
+      <img src="./img-m2/enterpop.png" alt="코딩알려주는 누나 node.js 강의 안내">
+      <span>닫기 X</span>
+      <a href="#">Go →</a>
     </div>
-</div> -->
+</div>
+
+<div class="popup-bg2"></div>
+<div class="page-popup2">
+  <div class="page-popup-box">
+    <h5>새해 맞이 <br>다모아 인기강의 1+1 이벤트</h5>
+    <p>지금 해당 강의 구매하면 1+1 쿠폰을 선물로 드려요</p>
+    <img src="./img-m2/popup-image-home-1월원플원.webp" alt="1월강의 원플러스원이벤트안내">
+    <a href="#">네 받을래요 →</a>
+    <span>닫기 X</span>
+  </div>
+</div>
 
 
 

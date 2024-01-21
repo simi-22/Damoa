@@ -1,4 +1,3 @@
-
 .search-bar-main-1 {
     text-align: center;
     padding-top: 1.8em;
@@ -7,20 +6,24 @@
 
 .main1-search-icon {
     position: relative;
-    background-color:rgb(234, 234, 234);
     position: relative;
     right: 50px;
-    border: 1px solid rgb(234, 234, 234);
+    background: transparent;
+    border: 1px solid transparent;
 }
 
 .main1-input-box1 {
-    width: 400px;
+    width: 600px;
     height: auto;
-    background-color: rgb(234, 234, 234);
     border: 1px solid rgb(234, 234, 234);
     padding: 14px 20px;
     border-radius: 28px;
     color: gray;
+    outline: none;
+}
+
+.main1-input-box1:focus{
+    outline: 2px solid rgb(255, 141, 6);
 }
 
 .mmm-box-1 {
@@ -28,68 +31,60 @@
 }
 
 .hey-mid {
-    text-align: center;
     padding-top: 3em;
-    padding-bottom:1em;
-    padding-left: 0.5em;
+    padding-bottom:0;
+    padding-left: 80px;
     padding-right: 0.5em;
 }
 
-@media screen and (max-width: 48rem){
-    .main1-search-icon {
-        position:relative;
-   }
-}   
-
-@media screen and (max-width: 48rem){
-    .hey-mid {
-        text-align: center;
-        padding-top: 2em;
-        padding-bottom:0.5em;
-        padding-left: 0.8em;
-        padding-right: 0.8em;
-    }
-}   
-
-@media screen and (max-width: 48rem){
-    .main1-input-box1 {
-       height: 100%;
-       width: 85%;
-    
-   }
-}   
-
-.c-inside-img {
-    max-height: 500px;
-    width: 759px;
-    background-color: rgb(242, 242, 242);
+.hey-mid11 {
+    padding-top: 3em;
+    padding-bottom:0em;
+    padding-left: 50px;
+    padding-right: 0.5em;
+}
+.hey-mid11 p {
+    margin-bottom: 0;
 }
 
-@media screen and (max-width: 48rem){
-    .c-inside-img {
-       height: 100%;
-       width: 100%;
-   }
-}   
+
+.c-inside-img1 {
+    height: 100%;
+    background-image: url(https://img-c.udemycdn.com/course/750x422/4077322_a979_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c-inside-img2 {
+    height: 100%;
+    background-image: url(https://omegadigitalsolutions.com/pteelroa/2022/07/header-youtube.png);
+    background-color:rgb(242, 242, 242);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c-inside-img3 {
+    height: 100%;
+    background-image: url(https://i.ytimg.com/vi/4v52lmRgvK4/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .c-img {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.8);
-    background-color: rgb(242, 242, 242);
     text-align:center;
 }
 
-.c-item {
-    height: 500px;
-}
 
-@media screen and (max-width: 48rem){
-    .c-item {
-       height: 300px;
-       width: 100%;
-   }
-}   
+.c-item {
+    height: 550px;
+}
 
 .card{
     border: none;
@@ -97,34 +92,13 @@
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0. 18);
 }
 
+.card-window{
+    padding: 1.5em;
+}
+
 .main1-ccc {
     padding: 1em;
-}
-
-@media screen and (min-width: 568px) {
-.cards-wrapper{
-    display: flex;
-}
-
-.card{
-    margin : 0em 0.8em;
-    width: calc(100%/3);
-}
-.image-wrapper{
-    height: 18vw;
-    margin: auto;
-    /*
-    display:flex;
-    align-items: center;
-    justify-content: center; */
-}
-}
-
-
-@media screen and (max-width: 567px) {
-    .card:not(:first-child){
-        display:none;
-    }
+    padding-top: 0;
 }
 
 .image-wrapper img{
@@ -142,10 +116,80 @@
 	background-color: rgb(249, 157, 36);
 }
 
+.main1-between{
+    height: 1em;
+}
 
-.dfas{
-    background: url(https://i.ytimg.com/vi/4v52lmRgvK4/maxresdefault.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
+
+
+
+#video-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+    .hey-mid {
+        padding-left: 40px;
+        }
+}
+@media screen and (min-width: 576px) {
+    .cards-wrapper{
+        display: flex;
+    }
+    
+    .card{
+        margin : 0em 0.8em;
+        width: calc(100%/3);
+    }
+    .image-wrapper{
+        height: 18vw;
+        margin: auto;
+        /*
+        display:flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    }
+    
+    
+    @media screen and (max-width: 576px) {
+        .card:not(:first-child){
+            display:none;
+        }
+    }
+    
+
+@media screen and (max-width: 48rem){
+    .main1-search-icon {
+        position:relative;
+   }
+   .hey-mid11 {
+    padding-top: 2em;
+    padding-right: 0.8em;
+    padding-bottom: 0;
+    padding-left: 20px;
+    }
+    .hey-mid {
+    padding-top: 2em;
+    padding-left: 20px;
+    padding-bottom: 0;
+    padding-right: 0.8em;
+    }
+    .main1-input-box1 {
+        height: 100%;
+        width: 85%;
+     
+    }
+    .c-item {
+        height: 300px;
+        width: 100%;
+    }
+    .c-img {
+        height: 100%;
+        width: 100%;
+    }
 }
