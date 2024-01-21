@@ -52,7 +52,7 @@ nav .navbar-brand img {
 
 /* main2 */
 #corp {
-    max-width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
@@ -94,7 +94,7 @@ nav .navbar-brand img {
 
 #review {
     position: relative;
-    max-width: 100%;
+    max-width: 1500px;
     margin: o auto;
     padding: 70px 0;
     text-align: center;
@@ -371,7 +371,7 @@ nav .navbar-brand img {
     }
     
     .page-popup2{
-        position: fixed;
+        position: absolute;
         top:calc(40%);
         right: calc(50% - 200px);
         z-index: 1000;
